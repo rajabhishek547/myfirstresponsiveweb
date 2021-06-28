@@ -1,0 +1,299 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Complete Bootstrap 4 Website Layout</title>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+	<script src="https://use.fontawesome.com/releases/v5.0.8/js/all.js"></script>
+	<link href="style.css" rel="stylesheet">
+</head>
+<body>
+<!-- Navigation -->
+<nav class="navbar navbar-expand-md navbar-light bg-light sticky-top">
+<div class="container-fluid">
+	<img src="https://i.ibb.co/HgHVDHH/arr.png">
+<a class="navbar-brand" href="#"></a>
+<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive">
+	<span class="navbar-toggler-icon"></span>
+</button>
+<div class="collapse navbar-collapse" id="navbarResponsive">
+	<ul onclick="navClick()" class="navbar-nav ml-auto" id="navItem">
+		<li class="nav-item active">
+			<a id="nameData" class="nav-link" href="#">Home</a>
+		</li>
+		<li class="nav-item">
+			<a id="nameData" class="nav-link" href="#">about</a>
+		</li>
+		<li class="nav-item">
+			<a class="nav-link" href="#">Services</a>
+		</li>
+		<li class="nav-item">
+			<a class="nav-link" href="#">Team</a>
+		</li>
+		<li class="nav-item">
+			<a class="nav-link" href="#">Contact</a>
+		</li>
+	</ul>
+</div>
+</div>
+</nav>
+<!--- Image Slider -->
+<div id="slides" class="carousel slide" data-ride="carousel">
+	<ul class="carousel-indicators">
+		<li data-target="#slides" data-slide-to="0" class="active"></li>
+		<li data-target="#slides" data-slide-to="1"></li>
+		<li data-target="#slides" data-slide-to="2"></li>
+	</ul>
+	<div class="carousel-inner">
+		<div class="carousel-item active">
+			<img src="https://i.ibb.co/YZ4tT1F/bg1.jpg">
+			<div class="carousel-caption">
+				<h1 class="display-2">Reading gives us someplace to go when we have to stay where we are</h1>
+				<h3>To attain knowledge, add things everyday. To attain wisdom, remove things every day</h3>
+				<button type="button" class="btn btn-outline-light btl-lg">View Demo</button>
+				<button type="button" class="btn btn-primary btl-lg">Get Started</button>
+			</div>
+		</div>
+		<div class="carousel-item">
+			<img src="https://i.ibb.co/h19NYXD/bg2.jpg">
+			<div class="carousel-caption">
+				<h1 class="display-2">A reader lives a thousand lives before he dies, said Jojen. The man who never reads lives only one.</h1>
+			</div>
+		</div>
+		<div class="carousel-item">
+			<img src="https://i.ibb.co/ZBb0kbN/bg3.jpg">
+			<div class="carousel-caption">
+				<h1 class="display-2">Books are mirrors: you only see in them what you already have inside you.</h1>
+			</div>
+		</div>
+	</div>
+</div>
+
+<!--- Jumbotron -->
+<!-- <div class="container-fluid">
+	<div class="row Jumbotron">
+		<div class="col-xs-12 col-sm-12 col-md-9 col-lg-9 col-xl-10">
+			<p class="lead">A web hosting service allow individuals and organizations to make their website accessible via the world wide web.</p>
+		</div>
+		<div class="col-xs-12 col-sm-12 col-md-3 col-lg-3 col-xl-2">
+			<a href="#"><button type="button" class="btn btn-outline-secondary btn-lg">Web Hosting</button></a>
+		</div>
+	</div>
+</div> -->
+<!--- Welcome Section -->
+<div class="container-fluid padding">
+	<div class="row welcome text-center">
+		<div class="col-12">
+			<h1 class="display-4">"REALITY DOESN’T ALWAYS GIVE US THE LIFE THAT WE DESIRE, BUT WE CAN ALWAYS FIND WHAT WE DESIRE BETWEEN THE PAGES OF BOOKS"</h1>
+		</div>
+		<div class="col-12">
+			<p class="lead">Welcome to my Book Library website This is a free Book library for Book Lovers.</p>
+		</div>
+	</div>
+</div>
+
+<!--- Three Column Section -->
+<h2 class="col-12 text-center">Robin Sharma Collection</h2>
+<div class="container-fluid padding">
+	<div class="row text-center padding">
+		<div class="col-xs-12 col-sm-6 col-md-4">
+			<a href="https://drive.google.com/file/d/165VHOcm1z5oVs-kh9pbIq04eRGRu0OQg/view?usp=sharing"><img src="https://i.ibb.co/N9m9nt4/WHO-WILL-CRY-F.png">
+			<h3>Who Will Cry <br> When You Die</h3>
+			<p>ROBIN SHARMA'S</p></a>
+		</div>
+		<div class="col-xs-12 col-sm-6 col-md-4">
+			<a href="https://drive.google.com/file/d/165VHOcm1z5oVs-kh9pbIq04eRGRu0OQg/view?usp=sharing"><img src="https://i.ibb.co/vPwxkvW/little-black.png">
+			<h3>LITTLE BLACK BOOK <br> FOR STUNNING SUCCESS</h3>
+			<p>ROBIN SHARMA'S</p></a>
+		</div>
+		<div class="col-xs-12 col-sm-6 col-md-4">
+			<a href="https://drive.google.com/file/d/15WSXCImNV9LNU4S_pw7otZZlEp3HHOIB/view?usp=sharing"><img src="https://i.ibb.co/CvKSG5r/the-monk.png">
+			<h3>The Monk Who <br> Sold His Ferrari</h3>
+			<p>ROBIN SHARMA'S</p></a>
+		</div>
+		<h2 class="col-12 text-center">Chetan Bhagat Collection</h2>
+		<div class="col-xs-12 col-sm-6 col-md-4">
+			<a href="https://drive.google.com/file/d/1WKYm6XwaXS_W_VZfL0EbaAxtj8zlC2__/view?usp=sharing"><img src="https://i.ibb.co/jRsSsS7/three-mostaje.png">
+			<h3>Three Mistakes of My Life</h3>
+			<p>CHETAN BHAGAT</p></a>
+		</div>
+		<div class="col-xs-12 col-sm-6 col-md-4">
+			<a href="https://drive.google.com/file/d/1nruxxhf0MJt47buw9MMCpr7W8tn39NRf/view?usp=sharing"><img src="https://i.ibb.co/B25mvbm/half-gf.png">
+			<h3>Half Girlfriend</h3>
+			<p>CHETAN BHAGAT</p></a>
+		</div>
+		<div class="col-xs-12 col-sm-6 col-md-4">
+			<a href="https://drive.google.com/file/d/1Tc1WwcR-KIRUac59yzESR_FHQVb9y-pT/view?usp=sharing"><img src="https://i.ibb.co/WK15sGL/oneindiangirl.png">
+			<h3>One India Girl</h3>
+			<p>CHETAN BHAGAT</p></a>
+		</div>
+	</div>
+	<hr class="my-4">
+</div>
+
+<!--- Two Column Section -->
+<div class="container-fluid padding">
+<div class="row padding">
+<div class="col-lg-6">
+<h2>10 Benefits of Reading: Why You Should Read Every Day</h2>
+<p>1. Mental Stimulation <br> 2. Stress Reduction <br>3. Knowledge <br>4. Vocabulary Expansion <br>
+5. Memory Improvement <br>6. Stronger Analytical Thinking Skills <br>7. Improved Focus and Concentration
+<br>8. Better Writing Skills <br>9. Tranquility <br>10. Free Entertainment</p>
+<br>
+<a href="https://www.lifehack.org/articles/lifestyle/10-benefits-reading-why-you-should-read-everyday.html" class="btn btn-primary">Learn More</a>
+</div>
+<div class="col-lg-6">
+<img src="https://i.ibb.co/qkTMgsR/desk.png" class="img-fluid">
+</div>
+</div>
+</div>
+<hr class="my-4">
+<!--- Fixed background -->
+<figure>
+	<div class="fixed-wrap">
+		<div id="fixed">
+		</div>
+	</div>
+</figure>
+
+<!--- Emoji Section -->
+<button class="fun" data-toggle="collapse" data-target="#emoji">Click for fun</button>
+  <div id="emoji" class="collapse">
+  	<div class="container-fluid padding">
+  		<div class="row text-center">
+  			<div class="col-sm-6 col-md-3">
+  				<img class="gif" src="https://i.ibb.co/sJb6w8d/panda.gif">
+  			</div>
+  			<div class="col-sm-6 col-md-3">
+  				<img class="gif" src="https://i.ibb.co/Cb31HLm/poo.gif">
+  			</div>
+  			<div class="col-sm-6 col-md-3">
+  				<img class="gif" src="https://i.ibb.co/W6KLdVy/unicorn.gif">
+  			</div>
+  			<div class="col-sm-6 col-md-3">
+  				<img class="gif" src="https://i.ibb.co/4gngqxP/chicken.gif">
+  			</div>
+  		</div>
+  	</div>
+  </div>
+<!--- Meet the team -->
+<div class="container-fluid padding">
+	<div class="row welcome text-center">
+		<div class="col-12">
+			<h1 class="display-4">Meet the Team</h1>
+		</div>
+	</div>
+</div>
+<!--- Cards -->
+<div class="container-fluid padding">
+	<div class="row padding">
+		<div class="col-md-4">
+			<div class="card">
+				<img class="card-img-top" src="https://i.ibb.co/RcjBr15/Abhishek.png">
+				<div class="card-body">
+					<h4 class="card-title">Abhishek Raj</h4>
+					<p class="card-text">Abhishek is a Web Developer</p>
+					<a href="https://www.linkedin.com/in/abhishek-raj-7787aa134/" class="btn btn-outline-secondary">See Profile</a>
+				</div>
+			</div>
+		</div>
+		<div class="col-md-4">
+			<div class="card">
+				<img class="card-img-top" src="https://i.ibb.co/bQ1Z8Wz/mypic2.png">
+				<div class="card-body">
+					<h4 class="card-title">Abhishek Raj</h4>
+					<p class="card-text">Front End Developer</p>
+					<a href="https://www.linkedin.com/in/abhishek-raj-7787aa134/" class="btn btn-outline-secondary">See Profile</a>
+				</div>
+			</div>
+		</div>
+		<div class="col-md-4">
+			<div class="card">
+				<img class="card-img-top" src="https://i.ibb.co/SPLb92F/mypic.png">
+				<div class="card-body">
+					<h4 class="card-title">Abhishek Raj</h4>
+					<p class="card-text">Java Developer</p>
+					<a href="https://www.linkedin.com/in/abhishek-raj-7787aa134/" class="btn btn-outline-secondary">See Profile</a>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+
+<!--- Two Column Section -->
+<div class="container-fluid padding">
+<div class="row padding">
+<div class="col-lg-6">
+<h2>Our Philosophy</h2>
+<p>Reading is a skill necessary for all aspects of life. Without the ability to read a person is unable to live a successful life in society. Teaching children to read is one of, if not the most important things a teacher can do. Before any teacher can begin to do their job there needs to be an understanding of the students. This is especially true of reading which is impacted so heavily by a student’s home life and background. There are many different approaches to teaching reading and each of them has their supporters and their detractors. My personal view, on teaching reading, is that, in order for children to learn as much as they possibly can, reading instruction needs to use a variety of models and not just one model all of the time.</p>
+<br>
+</div>
+<div class="col-lg-6">
+<img src="https://i.ibb.co/xqYQ1pv/philosphy.jpg" class="img-fluid">
+</div>
+</div>
+</div>
+<hr class="my-4">
+<!--- Connect -->
+<div class="container-fluid padding">
+	<div class="row text-center padding">
+		<div class="col-12">
+			<h2>Connect</h2>
+		</div>
+		<div class="col-12 social padding">
+			<a href="https://www.facebook.com/abhishek.raj.98096/"><i class="fab fa-facebook"></i></a>
+			<a href="https://twitter.com/rajabhishek547"><i class="fab fa-twitter"></i></a>
+			<a href="https://www.google.co.in/"><i class="fab fa-google-plus-g"></i></a>
+			<a href="https://www.instagram.com/rajabhishek547/"><i class="fab fa-instagram"></i></a>
+			<a href="https://www.youtube.com/"><i class="fab fa-youtube"></i></a>
+		</div>
+	</div>
+</div>
+
+<!--- Footer -->
+<footer>
+	<div class="container-fluid padding">
+		<div class="row text-center">
+			<div class="col-md-4">
+				<img src="https://i.ibb.co/HgHVDHH/arr.png">
+				<hr class="light">
+				<p>Abhishek Raj</p>
+				<p>rajabhishek547@gmail.com</p>
+				<p>Pumpa Extension</p>
+				<p>Bangalore,Karnatka,560024</p>
+			</div>
+			<div class="col-md-4">
+				<hr class="light">
+				<h5>Our Hours</h5>
+				<hr class="light">
+				<p>Monday: 9am-5pm</p>
+				<p>Saturday: 10am-4pm</p>
+				<p>Sunday: closed</p>
+			</div>
+			<div class="col-md-4">
+				<hr class="light">
+				<h5>Service Area</h5>
+				<hr class="light">
+				<p>Bangalore, Karnatka, 560024</p>
+				<p>Motihari, Bihar, 845404</p>
+				<p>Patna, Bihar, 800001</p>
+			</div>
+			<div class="col-12">
+				<hr class="light-100">
+				<h5>&copy: rajabhishek547@gmail.com</h5>
+			</div>
+		</div>
+	</div>
+</footer>
+
+
+
+</body>
+</html>
+<!-- End View in Browser: Drew's #1 Trending YouTube Tutorial -->
+
+
